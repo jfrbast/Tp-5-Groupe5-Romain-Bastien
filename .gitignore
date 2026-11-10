@@ -29,3 +29,7 @@ id_rsa
 id_rsa.pub
 
 backend.hcl
+# Autres formats de clés privées
+*.key
+id_ed25519
+id_ecdsa
