@@ -50,3 +50,7 @@ variable "admin_source_ip" {
   type        = string
   description = "IP publique autorisée à se connecter en SSH à la jumpbox, au format CIDR (ex. 203.0.113.10/32)"
 }
+variable "alert_email" {
+  type        = string
+  description = "Adresse mail qui reçoit les alertes Azure Monitor"
+}
