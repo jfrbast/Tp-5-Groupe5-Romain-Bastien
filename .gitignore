@@ -1,0 +1,29 @@
+# Cache des providers
+.terraform/
+
+# State : contient tout, y compris les secrets (mot de passe du niveau 3)
+*.tfstate
+*.tfstate.*
+
+# Valeurs personnelles (ID d'abonnement, IP, etc.)
+*.tfvars
+*.tfvars.json
+
+# Plans enregistrés (peuvent contenir des valeurs sensibles)
+*.tfplan
+tfplan
+
+# Fichiers de surcharge locaux
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Logs de plantage
+crash.log
+crash.*.log
+
+# Clés SSH, au cas où
+*.pem
+id_rsa
+id_rsa.pub
